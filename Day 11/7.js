@@ -1,6 +1,7 @@
 let a = 1;
+let sum = 0;
 while (a <= 5) {
-  a = +a;
+  sum = sum + a;
   a++;
-  console.log(a);
 }
+console.log(sum);

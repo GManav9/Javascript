@@ -1,10 +1,18 @@
-let first;
-let second;
-let next;
+let a=1;
+let num=100;
+let sum=0;
 
-for (let a = 1; a <= 100; a++) {
-  second = first;
-  next = second;
-  a = +a;
-  console.log(a);
-}
+for(a=1;a<=100;a++)
+    {
+        sum+=a;
+           if(sum>=1000)
+            {
+               
+                break;
+            }
+            console.log(sum);
+            a++
+             
+            
+             
+    }
