@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="row w-100">
+      <div class="col-xxl-5 mt-3 m-auto">
+        <input
+          type="text"
+          id="f"
+          class="form-control mt-3"
+          placeholder="Enter the Digit"
+        />
+        <button onclick="fibo()" class="btn btn-success form-control mt-3">
+          Submit
+        </button>
+        <h2 id="h" class="text-center mt-3"></h2>
+      </div>
+    </div>
+  </body>
+  <script>
+    function fibo() {
+      let a = document.getElementById("f").value;
+
+      let first = 0;
+      let second = 1;
+      let next;
+
+      for (i = 1; i <= a - 1; i++) {
+        next = first + second;
+        first = second;
+        second = next;
+
+        document.getElementById("h").innerText = next;
+      }
+    }
+  </script>
+</html>
