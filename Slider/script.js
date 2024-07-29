@@ -12,18 +12,18 @@ let a = 0;
 document.getElementById("img").innerHTML = `<img src="${images[a]}">`;
 
 function pre() {
-    if (a > 0) {
-        a--;
-    } else {
-        a = images.length - 1;
-    }
-    document.getElementById("img").innerHTML = `<img src="${images[a]}">`;
+  if (a > 0) {
+    a--;
+  } else {
+    a = images.length - 1;
+  }
+  document.getElementById("img").innerHTML = `<img src="${images[a]}">`;
 }
 function next() {
-    if (a === images.length - 1) {       
-        a = 0
-    } else {
-        a++;
-    }
-    document.getElementById("img").innerHTML = `<img src="${images[a]}">`;
+  if (a === images.length - 1) {
+    a = 0;
+  } else {
+    a++;
+  }
+  document.getElementById("img").innerHTML = `<img src="${images[a]}">`;
 }
