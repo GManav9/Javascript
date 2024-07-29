@@ -2,34 +2,34 @@ function quo() {
   let q = [
     {
       quote:
-        "Get it down. Take chances. It may be bad, but it's the only way you can do anything really good.",
-      writer: "William Faulkner",
+        "  Get it down. Take chances. It may be bad, but it's the only way you can do anything really good. ",
+      writer: " “ William Faulkner ” ",
     },
 
     {
       quote: "That it will never come again is what makes life so sweet",
-      writer: "Emily Dickinson",
+      writer: " “ Emily Dickinson ” ",
     },
     {
       quote: "It is never too late to be what you might have been",
-      writer: "George Eliot",
+      writer: " “ George Eliot ” ",
     },
     {
       quote:
         "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment",
-      writer: " Ralph Waldo Emerson",
+      writer: " “ Ralph Waldo Emerson ” ",
     },
     {
       quote: "Pain is inevitable. Suffering is optional.",
-      writer: " Haruki Murakami",
+      writer: " “ Haruki Murakami ” ",
     },
     {
       quote: "Be kind, for everyone you meet is fighting a hard battle",
-      writer: "Plato",
+      writer: " “ Plato ” ",
     },
     {
       quote: "Let me live, love, and say it well in good sentences",
-      writer: "Sylvia Plath",
+      writer: " “ Sylvia Plath ” ",
     },
   ];
 
