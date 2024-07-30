@@ -4,4 +4,6 @@ let students = [
   { name: "Bob", age: 21, grade: "C" },
 ];
 
-console.log(students);
+for (let x = 0; x < students.length; x++) {
+  console.log(`${students[x].name} - ${students[x].age} Years Old`);
+}

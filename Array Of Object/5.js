@@ -4,4 +4,8 @@ let students = [
   { name: "Bob", age: 21, grade: "C" },
 ];
 
-console.log(students);
+for (let x = 0; x < students.length; x++) {
+  if (students[x].age > 21) {
+    console.log(students[x].name);
+  }
+}
