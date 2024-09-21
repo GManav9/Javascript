@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": "7fcc",
+      "username": "manav",
+      "email": "gangvnaimanav@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "a9f8",
+      "username": "manav",
+      "email": "gangvanimanav@gmial.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "images/p1.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 499
+    },
+    {
+      "id": "2",
+      "image": "images/p2.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 599
+    },
+    {
+      "id": "3",
+      "image": "images/p3.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 499
+    },
+    {
+      "id": "4",
+      "image": "images/p4.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 499
+    },
+    {
+      "id": "5",
+      "image": "images/p4.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 499
+    }
+  ],
+  "product2": [
+    {
+      "id": "10",
+      "image": "https://contents.mediadecathlon.com/p2600952/0009e027b81b7fd7b7361595a1cebce5/p2600952.jpg?format=auto&quality=70&f=425x0",
+      "categorie": "NABAIJI",
+      "title": "Swimming Jammer Fiti Black Red Mesh",
+      "price": 499
+    },
+    {
+      "id": "11",
+      "image": "https://contents.mediadecathlon.com/p2383390/e7215de3cfa3f53568fafccbf8d31a4b/p2383390.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "Domyos",
+      "title": "Men swimming jammer with inner mesh",
+      "price": 599
+    },
+    {
+      "id": "12",
+      "image": "https://contents.mediadecathlon.com/p2698591/e9ba8e71d8bc34ab13bfc3f74dec980d/p2698591.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "OLAIAN",
+      "title": "Men Beachwear Surfing Full-sleeve T-shirt",
+      "price": 799
+    },
+    {
+      "id": "13",
+      "image": "https://contents.mediadecathlon.com/p2131893/305735e460416c38dc38f17d5dde2e2f/p2131893.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "NABAIJI",
+      "title": "Men Swimming Jammer lining Blue Red",
+      "price": 799
+    },
+    {
+      "id": "14",
+      "image": "https://contents.mediadecathlon.com/p2174988/c93801464cca8415a8772d1dd5e40bb3/p2174988.jpg?format=auto&quality=70&f=320x0 ",
+      "categorie": "OLAIAN",
+      "title": "Men Surfing  Boardshorts Square Black",
+      "price": 799
+    }
+  ],
+  "products3": [
+    {
+      "id": "15",
+      "image": "https://contents.mediadecathlon.com/p2197356/20ec45d54c1ff25c1d2a554ad65cd203/p2197356.jpg?format=auto&quality=70&f=320x0 ",
+      "categorie": "DOMYOS",
+      "title": "Men's Shorts For Gym Cotton Rich Khaki",
+      "price": 599
+    },
+    {
+      "id": "16",
+      "image": "https://contents.mediadecathlon.com/p2364128/896020e14e57d04b889f4d1fd605935c/p2364128.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "ARTENGO",
+      "title": "Men's T-Shirt Short Sleeved Navy White",
+      "price": 999
+    },
+    {
+      "id": "17",
+      "image": "https://contents.mediadecathlon.com/p2698592/b2da6ff9bbb95f1f52956578d6242419/p2698592.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "OLAIAN",
+      "title": "Men's surfing UV protection top BRUSH",
+      "price": "1,199"
+    },
+    {
+      "id": "18",
+      "image": "https://contents.mediadecathlon.com/p2584885/f6a38bfdadc7827bc3fc2eb6fa51ddb9/p2584885.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "SOLOGNAC",
+      "title": "Men Breathable Lightweight Cargo Grey",
+      "price": "1,999"
+    },
+    {
+      "id": "19",
+      "image": "https://contents.mediadecathlon.com/p2015153/c4e1d926f54593092097b2e742ba8101/p2015153.jpg?format=auto&quality=70&f=320x0",
+      "categorie": "QUECHUA",
+      "title": "Men Light Cargo Pant Dark Olive - NH500",
+      "price": "1,499"
+    }
+  ],
+  "cart": [
+    {
+      "id": "3",
+      "image": "images/p3.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 499
+    },
+    {
+      "id": "4",
+      "image": "images/p4.png",
+      "categorie": "Domyos",
+      "title": "Gym Duffel",
+      "price": 499
+    }
+  ]
+}
